@@ -1,8 +1,16 @@
 #home{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: grid;
+    grid-template-areas: 
+    ". . . ."
+    ". skills skills ."
+    ". infos infos ."
+    ". infos infos ."
+    ". . . ."
+    ;
     height: 90vh;
+}
+#skills{
+    grid-area: skills; 
 }
 .techs{
     display: flex;
@@ -11,6 +19,8 @@
 }
 #infos{
     display: flex;
+    align-items: center;
+    grid-area: infos;
 }
 .card{
     text-align: center;

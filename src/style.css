@@ -10,18 +10,17 @@ body{
 }
 .perfil{
     display: flex;
-    justify-content: space-evenly;
+    gap: 1rem;
     align-items: center;
-    width: 16vw;
 }
 .perfil img{
     border-radius: 50%;
-    width: 36px;
-    height: 36px;
+    width: 2.4rem;
+    height: 2.4rem;
 }
 .navbar{
     display: flex;
-    justify-content: space-around;
+    gap: 2rem;
     align-items: center;
     list-style: none;
     width: 18vw;
