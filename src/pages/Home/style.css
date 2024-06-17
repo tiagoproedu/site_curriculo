@@ -1,0 +1,18 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90vh;
+}
+.techs{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+#infos{
+    display: flex;
+}
+.card{
+    text-align: center;
+    margin: 2vw;
+}

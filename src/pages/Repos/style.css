@@ -1,0 +1,29 @@
+#repos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+}
+#repos_cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95vw;
+}
+.repos_card{
+    width: 14vw;
+    height: 25vh;
+    margin: 1vw;
+    padding: 1%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.repos_card h3{
+    margin: 0;
+}
+.repos_card p{
+    font-size: small;
+}

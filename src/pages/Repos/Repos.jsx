@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./style.css"
 
 function Repos() {
 
@@ -13,9 +14,6 @@ function Repos() {
 
         Repositorios();
     }, []);
-    /*function reposList(re, i) {
-        return (<tr key={i}><td id={re.id}>{re.name}</td><td id={re}><a href={re.html_url}>{re.url}</a></td></tr>);
-    }*/
     function reposList(re, i){
         return(<div id={i} className="repos_card"><h3>{re.name}</h3><p>{re.description}</p><a href={re.html_url}><button>Acessar</button></a></div>);
     }
