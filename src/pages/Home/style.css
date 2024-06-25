@@ -2,20 +2,33 @@
     display: grid;
     grid-template-areas: 
     ". . . ."
+    ". . . ."
+    ". sobre sobre ."
     ". skills skills ."
     ". infos infos ."
     ". infos infos ."
     ". . . ."
     ;
-    height: 90vh;
+    height: 100vh;
+}
+#sobre{
+    grid-area: sobre;
 }
 #skills{
     grid-area: skills; 
+}
+h2{
+    margin-left: 1rem;
 }
 .techs{
     display: flex;
     justify-content: space-around;
     list-style: none;
+    padding: 0;
+}
+.techs li{
+    width: 5rem;
+    height: 5rem;
 }
 #infos{
     display: flex;
