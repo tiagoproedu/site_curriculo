@@ -13,11 +13,6 @@ body{
     gap: 1rem;
     align-items: center;
 }
-.perfil img{
-    border-radius: 50%;
-    width: 2.4rem;
-    height: 2.4rem;
-}
 .navbar{
     display: flex;
     gap: 2rem;
@@ -25,4 +20,12 @@ body{
     list-style: none;
     width: 18vw;
     padding: 0;
+}
+.talk button{
+    background-color: #1E6DF0;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    width: 8rem;
+    height: 2rem;
 }
