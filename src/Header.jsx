@@ -3,7 +3,7 @@ function Header() {
         <>
             <div className="header">
                 <div className="perfil">
-                    <h1>Tiago Silva</h1>
+                    <h1>Tiago</h1>
                 </div>
                 <ul className="navbar">
                     <li><a href="/">Home</a></li>

@@ -1,18 +1,27 @@
 #home{
     display: grid;
     grid-template-areas: 
-    ". . . ."
-    ". . . ."
-    ". sobre sobre ."
-    ". skills skills ."
-    ". infos infos ."
-    ". infos infos ."
-    ". . . ."
+    ". . . . ."
+    ". . sobre . ."
+    ". . . . ."
+    ". skills skills skills ."
+    ". . . . ."
+    ". infos infos infos ."
+    ". . . . ."
     ;
     height: 100vh;
 }
 #sobre{
     grid-area: sobre;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+.gradient{
+    background-image: linear-gradient(to right, #2264ED, #00A3FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #skills{
     grid-area: skills; 

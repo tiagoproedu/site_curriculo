@@ -5,15 +5,11 @@ function Home() {
     <>
       <div id="home">
         <div id="sobre">
-          <h2>Apresentação</h2>
+          <h1>Tiago Silva</h1>
+          <h2 className="gradient">Full Stack Developer</h2>
           <p>
-            Ser um desenvolvedor ful stack sênior, busco por uma empresa que me
-            dê a oportunidade de colocar em prática aquilo que venho aprendendo,
-            aprendo muito rápido e gosto de entender como as coisas realmente
-            funcionam. Me adapto muito bem em novos ambientes e gosto de
-            desafios. Atualmente faço o curso de desenvolvimento ful stack pela
-            digital co lege e lá aprendi as principais linguagens de front end,
-            assim como, node, express e react.
+            Estudante de Analise e Desenvolvimento de Sistemas no 4° Semestre,
+            finalizando curso de Full-Stack pela Digital College.
           </p>
         </div>
         <div id="skills">

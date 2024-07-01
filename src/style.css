@@ -4,8 +4,9 @@ body{
 }
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    gap: 30rem;
     height: 5vh;
 }
 .perfil{
@@ -17,8 +18,9 @@ body{
     display: flex;
     gap: 2rem;
     align-items: center;
+    justify-content: center;
     list-style: none;
-    width: 18vw;
+    width: 25vw;
     padding: 0;
 }
 .talk button{
