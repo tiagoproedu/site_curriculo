@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     font-family: "MontSerrat", sans-serif;
+    background-color: #F7F9FB;
 }
 .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 30rem;
-    height: 5vh;
+    height: 7vh;
+    background-color: #ffffff;
 }
 .perfil{
     display: flex;

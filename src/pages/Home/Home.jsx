@@ -4,18 +4,20 @@ function Home() {
   return (
     <>
       <div id="home">
-        <div id="sobre">
-          <h1>Tiago Silva</h1>
-          <h2 className="gradient">Full Stack Developer</h2>
-          <p>
-            Estudante de Analise e Desenvolvimento de Sistemas no 4° Semestre,
-            finalizando curso de Full-Stack pela Digital College.
-          </p>
+        <div className="background_color">
+          <div id="sobre">
+            <h1>Tiago Silva</h1>
+            <h2 className="gradient">Full Stack Developer</h2>
+            <p>
+              Estudante de Analise e Desenvolvimento de Sistemas no 4° Semestre,
+              finalizando curso de Full-Stack pela Digital College.
+            </p>
+          </div>
         </div>
         <div id="skills">
           <h2>Tecnologias</h2>
           <ul className="techs">
-            <li><img src="assets/svg/HTML5.svg" alt="HTML5"/></li>
+            <li><img src="assets/svg/HTML5.svg" alt="HTML5" /></li>
             <li><img src="assets/svg/CSS3.svg" alt="CSS3" /></li>
             <li><img src="assets/svg/JavaScript.svg" alt="JavaScript" /></li>
             <li><img src="assets/svg/React.svg" alt="React" /></li>
