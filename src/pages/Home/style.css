@@ -6,12 +6,12 @@
     ". . . . ."
     ". skills skills skills ."
     ". . . . ."
-    ". infos infos infos ."
-    ". . . . ."
     " . projetos projetos projetos ."
     ". . . . ."
+    ". infos infos infos ."
+    ". . . . ."
     ;
-    height: 100vh;
+    height: 170vh;
 }
 .background_color{
     grid-area: sobre;
@@ -36,6 +36,17 @@
 }
 #ult_projetos{
     grid-area: projetos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+#projetos{
+    display: flex;
+}
+.tags{
+    gap: 0.2rem;
+    display: inline-block;
 }
 h2{
     margin-left: 1rem;
