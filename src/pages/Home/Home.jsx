@@ -26,6 +26,32 @@ function Home() {
             <li><img src="assets/svg/Microsoft SQL Server.svg" alt="SQL Server" /></li>
           </ul>
         </div>
+        <div id="ult_projetos">
+          <h2>Meus últimos projetos</h2>
+          <div id="projetos">
+            <div className="projeto">
+              <img src="" alt="" />
+              <h3>titulo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae optio a ab adipisci explicabo, perspiciatis eius voluptatibus, veniam porro placeat illo debitis velit minima, nesciunt sapiente rerum nobis earum quas.</p>
+              {/*tags*/}
+              <button>Ver projeto</button>
+            </div>
+            <div className="projeto">
+              <img src="" alt="" />
+              <h3>titulo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae optio a ab adipisci explicabo, perspiciatis eius voluptatibus, veniam porro placeat illo debitis velit minima, nesciunt sapiente rerum nobis earum quas.</p>
+              {/*tags*/}
+              <button>Ver projeto</button>
+            </div>
+            <div className="projeto">
+              <img src="" alt="" />
+              <h3>titulo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae optio a ab adipisci explicabo, perspiciatis eius voluptatibus, veniam porro placeat illo debitis velit minima, nesciunt sapiente rerum nobis earum quas.</p>
+              {/*tags*/}
+              <button>Ver projeto</button>
+            </div>
+          </div>
+        </div>
         <div id="infos">
           <div className="card">
             <h2>Formação Acadêmica</h2>

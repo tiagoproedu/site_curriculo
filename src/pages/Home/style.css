@@ -8,6 +8,8 @@
     ". . . . ."
     ". infos infos infos ."
     ". . . . ."
+    " . projetos projetos projetos ."
+    ". . . . ."
     ;
     height: 100vh;
 }
@@ -31,6 +33,9 @@
 #skills{
     grid-area: skills;
     background-color: #ffffff;
+}
+#ult_projetos{
+    grid-area: projetos;
 }
 h2{
     margin-left: 1rem;
