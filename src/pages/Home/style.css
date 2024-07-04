@@ -11,7 +11,7 @@
     ". infos infos infos ."
     ". . . . ."
     ;
-    height: 170vh;
+    height: 80rem;
 }
 .background_color{
     grid-area: sobre;
@@ -43,6 +43,10 @@
 }
 #projetos{
     display: flex;
+}
+#projeto{
+    display: flex;
+    flex-direction: column;
 }
 .tags{
     gap: 0.2rem;

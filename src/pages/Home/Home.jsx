@@ -1,5 +1,6 @@
 import "./style.css";
 import Tag from "../../components/Tag/Tag";
+import BlueButton from "../../components/Blue_Button/Blue_Button";
 
 function Home() {
   return (
@@ -38,21 +39,21 @@ function Home() {
                 <Tag titulo="teste 1"/>
                 <Tag titulo="teste 2"/>
               </div>
-              <button>Ver projeto</button>
+              <BlueButton titulo="Ver projeto"/>
             </div>
             <div className="projeto">
               <img src="" alt="" />
               <h3>titulo</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae optio a ab adipisci explicabo, perspiciatis eius voluptatibus, veniam porro placeat illo debitis velit minima, nesciunt sapiente rerum nobis earum quas.</p>
               {/*tags*/}
-              <button>Ver projeto</button>
+              <BlueButton titulo="Ver projeto"/>
             </div>
             <div className="projeto">
               <img src="" alt="" />
               <h3>titulo</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae optio a ab adipisci explicabo, perspiciatis eius voluptatibus, veniam porro placeat illo debitis velit minima, nesciunt sapiente rerum nobis earum quas.</p>
               {/*tags*/}
-              <button>Ver projeto</button>
+              <BlueButton titulo="Ver projeto"/>
             </div>
           </div>
         </div>

@@ -1,3 +1,5 @@
+import BlueButton from "./Blue_Button/Blue_Button";
+
 function Header() {
     return (
         <>
@@ -11,8 +13,8 @@ function Header() {
                     <li><a href="/repos">Portfolio</a></li>
                     <li>Blog</li>
                 </ul>
-                <div className="talk">
-                    <button>Vamos conversar!</button>
+                <div>
+                    <BlueButton titulo="Vamos conversar!"/>
                 </div>
             </div>
         </>
