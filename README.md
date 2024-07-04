@@ -1,8 +1,8 @@
-# React + Vite
+# Site Curriculo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto criado com a intenção de apresentar as minhas habilidades de programação
+e ao mesmo tempo praticar e aprender mais ainda.
 
-Currently, two official plugins are available:
+Seguindo como inspiração o seguinte projeto público do figma:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Figma(https://www.figma.com/design/oKU0uk8URdnGnqcTQ1sZmA/Free-Template-Portfolio-Web-Site-(Community)?node-id=14-2&t=kJ7ZgTwLc5Q5rFZc-0)
